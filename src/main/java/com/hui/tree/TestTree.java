@@ -13,7 +13,7 @@ import java.util.Map;
  * @Date: 2021/3/26 10:09
  */
 public class TestTree {
-    //生成树结构数据方法
+    //生成树结构数据方法 1.设置一个方便取数据的map集合；2.找出根节点；3.找出子节点，将子节点添加到父节点的children中；
     private static List<NodeTest> getTree(List<NodeTest> nodes) {
         Map<Long, NodeTest> nodeMap = new HashMap<>();//方便查找
         List<NodeTest> rootList = new ArrayList<>();//定义根节点，租后返回的也是根节点
